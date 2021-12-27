@@ -1,0 +1,48 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - callpolice
+  - callhospital
+  - callfirestation
+  - needhelp
+
+responses:
+  utter_how_can_i_help_you:
+  - text: "How can I help you?"
+
+  utter_firestation:
+  - text: "I have sent your location to the firestation. They will be there any minute."
+
+  utter_hospital:
+  - text: "Don't worry, calm down. I have sent your location to the hospital. Ambulance will be here any minute."
+
+  utter_police:
+  - text: "I am sending your location to the nearest poice station. They will be there any minute."
+
+  utter_greet:
+  - text: "Hi! I am Photon911 bot, here to help!"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
