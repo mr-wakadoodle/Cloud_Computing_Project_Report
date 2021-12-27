@@ -1,6 +1,7 @@
 # RASA bot installation steps -
 Install Anaconda
-Create a folder <example --> myfirstbot>
+
+Create a folder <example --> rasabot>
   cd + path to the folder
   Conda create --name chatbotvenv python==3.7.6
   conda activate chatbotvenv
