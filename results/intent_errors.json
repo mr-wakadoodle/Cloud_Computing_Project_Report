@@ -1,0 +1,10 @@
+[
+  {
+    "text": "There is fire in neighbour's house",
+    "intent": "callfirestation",
+    "intent_prediction": {
+      "name": "callpolice",
+      "confidence": 0.7397937178611755
+    }
+  }
+]
