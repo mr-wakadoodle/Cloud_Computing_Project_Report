@@ -11,5 +11,5 @@ Create a folder <example --> rasabot>
   rasa init
   
   To run rasa bot use - rasa shell
-
+  
 I purposely did not include a requirement.txt file. Please read throught the steps and try to implement step by step. That's how I learned :)
